@@ -13,7 +13,7 @@ void timer_callback(void)
 
 int main(void)
 {	
-	start_timer(1000*509UL, timer_callback);              //Configure and start timer
+	start_timer(509*1000UL, timer_callback);              //Configure and start timer
 	
 	while(true) 
 	{
